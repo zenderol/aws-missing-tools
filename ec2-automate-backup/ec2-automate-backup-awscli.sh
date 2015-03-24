@@ -144,7 +144,7 @@ hostname_tag_create=false
 #sets the user_tags feature to false - user_tag creates tags on snapshots - by default each snapshot is tagged with volume_id and current_date timestamp
 user_tags=false
 #sets the Purge Snapshot feature to false - if purge_snapshots=true then snapshots will be purged
-purge_snapshots=false
+purge_snapshots=true
 #handles options processing
 
 while getopts :s:c:r:v:t:k:pnhu opt; do
